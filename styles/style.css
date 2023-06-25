@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 body{
     font-size: 18px;
+    
 }
 .container{
 display:flex;
@@ -20,8 +21,7 @@ font-family: 'Josefin Sans', sans-serif;
     display:flex;
     flex-direction: column;
     padding: 100px;
-    padding-top:10px;
-}
+    padding-top:10px;}
 .were{
     color: hsl(0, 36%, 70%);
 
@@ -34,3 +34,31 @@ letter-spacing: 10px;}
 .param{
     color:hsl(0, 36%, 70%);
 }
+.email{
+    border-radius: 20px;
+    height: 40px;
+    width:250px;
+}
+.submit{
+
+    border-radius: 20px;
+    width: 70px;
+    height: 50px; 
+    position: relative;
+    top: 5px;
+    right: 50px;
+   background-color:  hsl(0, 78%, 63%);
+} 
+.button,.param{
+    position:relative;
+    bottom: 50px;
+}
+.email {
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    position: relative;}
+
+    input:invalid{
+    border-color: hsl(0, 93%, 68%);
+    }
