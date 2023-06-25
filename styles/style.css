@@ -23,7 +23,7 @@ font-family: 'Josefin Sans', sans-serif;
     padding-top:10px;
 }
 .were{
-    color: hsl(0, 93%, 68%);
+    color: hsl(0, 36%, 70%);
 
     font-weight: 100;
     letter-spacing: 10px;
@@ -31,3 +31,6 @@ font-family: 'Josefin Sans', sans-serif;
 .coming{
 font-size:2cm;
 letter-spacing: 10px;}
+.param{
+    color:hsl(0, 36%, 70%);
+}
