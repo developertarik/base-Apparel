@@ -52,6 +52,8 @@ letter-spacing: 10px;}
 .button,.param{
     position:relative;
     bottom: 50px;
+    display: flex;
+    align-items: flex-end;
 }
 .email {
     border-radius: 20px;
